@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f3d9;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #ff6b6b;
+}
+
+#pond {
+    width: 80%;
+    height: 150px;
+    background-color: #a0e7e5; /* Light blue to represent a pond */
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.fish {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+#score, #timer {
+    font-size: 20px;
+    color: #333;
+}
+
+#message {
+    font-size: 24px;
+    color: #44bd32;
+    margin-top: 20px;
+}
+
+#startButton, #retryButton {
+    background-color: #44bd32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#startButton:hover, #retryButton:hover {
+    background-color: #2d9e2d;
+}
