@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa; /* Light background color for better contrast */
+}
+
+.container {
+    text-align: center;
+}
+
+#pond {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: lightblue; /* Pond color */
+    border: 2px solid #0097a7; /* Border color to define pond area */
+    margin: 20px auto;
+    overflow: hidden; /* Ensure fish don't overflow */
+}
+
+#pond .fish {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d40;
+}
