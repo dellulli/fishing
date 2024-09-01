@@ -9,7 +9,7 @@ let score = 0;
 let timeLeft = 15;  // Timer set to 15 seconds
 let gameInterval;
 let fishInterval;
-const fishCountToWin = 40;  // Score needed to win is now 40 fish
+const fishCountToWin = 30;  // Score needed to win is now 30 fish
 const badImages = ['ecouple.png', 'babydrool.png', 'marianne.png'];  // Bad images to avoid
 
 startButton.addEventListener('click', startGame);
